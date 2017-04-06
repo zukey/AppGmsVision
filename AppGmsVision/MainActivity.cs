@@ -23,6 +23,12 @@ namespace AppGmsVision
             {
                 StartActivity(typeof(DetectActivity));
             };
+
+            var btn2 = FindViewById<Button>(Resource.Id.buttonOcrView);
+            btn2.Click += (s, e) =>
+            {
+                StartActivity(typeof(OcrActivity));
+            };
         }
     }
 }

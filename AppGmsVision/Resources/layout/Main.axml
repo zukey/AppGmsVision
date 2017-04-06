@@ -33,4 +33,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/buttonDetectView"
         android:textAllCaps="false" />
+    <Button
+        android:text="OCR View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOcrView"
+        android:textAllCaps="false" />
 </LinearLayout>
